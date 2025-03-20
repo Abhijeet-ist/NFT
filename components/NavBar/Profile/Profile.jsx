@@ -11,12 +11,14 @@ import images from '../../../img';
 const Profile = () => {
   return (
     <div className={Style.profile}>
+      <div className={Style.top}>
       <div className={Style.profile_account}>
         <Image src={images.user1} alt='user profile' width={50} height={50} className={Style.profile_account_img}/>
       </div>
       <div className={Style.profile_account_info}>
         <p>Ansh Kumar</p>
         <small>X015616185115564...</small>
+        </div>
       </div>
 
       <div className={Style.profile_menu}>
