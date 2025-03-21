@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from '../styles/index.module.css';
-import { BigNFTSlider, HeroSection, Service } from '../components/componentsindex';
+import { BigNFTSlider, HeroSection, Service, Subscribe } from '../components/componentsindex';
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Subscribe />
     </div>
   )
 }
